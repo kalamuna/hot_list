@@ -26,7 +26,7 @@ if( isset($content['field_hot_list_bk_color'] )){
 <?php if ($pane_prefix): ?>
   <?php print $pane_prefix; ?>
 <?php endif; ?>
-<aside class="<?php print $classes; ?> pane-bk-<?php if($bk_color) { print $bk_color; } else { print 'none'; } ?>" <?php print $id; ?> <?php print $attributes; ?> role="complemtary">
+<aside class="<?php print $classes; ?> pane-bk-<?php if($bk_color) { print $bk_color; } else { print 'none'; } ?>" <?php print $id; ?> <?php print $attributes; ?> role="complementary">
   <?php if ($admin_links): ?>
     <?php print $admin_links; ?>
   <?php endif; ?>
